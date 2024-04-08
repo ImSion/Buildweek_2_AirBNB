@@ -3,3 +3,64 @@
 .logo {
     width: 100px;
 }
+
+/* main */
+
+.img-principale {
+    width: 640px;
+    height: 405px;
+    
+}
+
+.img-secondarie {
+    width: 315px;
+    height: 200px;
+}
+
+.bordo .col-6:nth-child(2) img {
+    border-radius: 0px 20px 0px 0px;
+}
+
+.bordo .col-6:last-child img {
+    border-radius: 0px 0px 20px 0px;
+}
+
+/* Form */
+
+.shadow.border-black.container {
+    width: 400px;
+    height: 300px;
+}
+
+div input {
+    padding: 10px 0;
+    width: 100%;
+}
+
+.mt-3 {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.mt-3 div + input {
+    border-left: 0;
+    border-right: 0;
+    border-width: 1px;
+}
+
+.mt-3 div input:first-child {
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    border-width: 1px;
+}
+
+.mt-3 div input:last-child {
+    border-bottom: 0;
+    border-right: 0;
+    border-width: 1px;
+}
+
+.bi-star-fill {
+    color: #ff3358;
+}
