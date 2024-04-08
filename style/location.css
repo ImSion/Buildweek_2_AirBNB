@@ -29,38 +29,46 @@
 
 .shadow.border-black.container {
     width: 400px;
-    height: 300px;
+    height: 280px;
 }
 
-div input {
-    padding: 10px 0;
-    width: 100%;
-}
-
-.mt-3 {
+.form {
+    width: 300px;
+    height: 90px;
     border: 1px solid black;
     border-radius: 10px;
 }
 
-.mt-3 div + input {
-    border-left: 0;
-    border-right: 0;
-    border-width: 1px;
+.input:first-child {
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 0;
 }
 
-.mt-3 div input:first-child {
-    border-bottom: 0;
-    border-right: 0;
-    border-left: 0;
-    border-width: 1px;
+.input:nth-of-type(2) {
+    border: 0;
+    border-left: 1px solid black;
+    border-radius: 0px 10px 0px 0px;
+    padding: 10px 0;
 }
 
-.mt-3 div input:last-child {
-    border-bottom: 0;
-    border-right: 0;
-    border-width: 1px;
+.d-flex.w-100 + input{
+    border: 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 0;
+}
+
+.Date {
+    width: 125px;
+    font-size: 20px;
 }
 
 .bi-star-fill {
-    color: #ff3358;
+    color: #ff2c52;
+}
+
+button {
+    color: #ff2c52;
 }
