@@ -1,0 +1,166 @@
+.logo {
+    width: 100px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+.host {
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    
+}
+.host:hover {
+    color: rgb(228, 29, 86);
+    text-decoration: underline;
+}
+
+.bi-globe2 {
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: 0.4s ease-in-out;
+}
+.bi-globe2:hover {
+    color: rgb(228, 29, 86);
+}
+
+.bi-star-fill {
+    color: rgb(228, 29, 86);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.bi-star-fill:hover {
+    text-shadow: 0px 0px 10px rgb(228, 29, 86);
+}
+
+.bi-list {
+    margin-right: 10px;
+    font-size: 27px;
+}
+
+.bi-plus-circle-fill {
+    color: rgb(228, 29, 86);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+
+}
+.bi-plus-circle-fill:hover {
+    text-shadow: 0px 0px 10px rgb(228, 29, 86);
+}
+
+#profilebutton {
+    font-size: 25px;
+    color: rgb(105, 105, 105);
+    transition: 0.4s ease-in-out;
+}
+
+#profilebutton:hover {
+    color: rgb(228, 29, 86);
+    border: 1px solid rgb(228, 29, 86);
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px rgb(228, 29, 86);
+}
+
+.mymenu {
+    margin-right: 30px;
+    transition: 0.4s ease-in-out;
+
+}
+
+.dropdown-menu-show {
+    transition: 0.4s ease-in-out;
+}
+
+.hdfilter {
+    margin-top: 40px;
+}
+
+.filter {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(105, 105, 105);
+    border: 1px solid rgb(105, 105, 105);
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.filter:hover {
+    color: rgb(228, 29, 86);
+    border: 1px solid rgb(228, 29, 86);
+    box-shadow: 0px 0px 5px rgb(228, 29, 86);
+}
+
+h6 {
+    font-weight: 400;
+}
+
+.col {
+    max-width: 300px;
+    padding: 0;
+    height: 400px;
+    margin-right: 2px;
+}
+
+.car-adjusts {
+    width: 300px;
+}
+
+.car-adjusts.carousel.slide {
+    width: 300px;
+}
+
+.carousel-item {
+    transition: 0.3s ease-in-out;
+}
+.carousel-item.active {
+    width: 300px;
+    transition: 0.3s ease-in-out;
+}
+
+.filmimg {
+    width: 300px;
+    height: 205px;
+    border-radius: 7px;
+}
+
+.carousel-inner {
+    width: 300px;
+}
+
+.carousel-indicators {
+    width: 30px;
+    border-radius: 20px;
+    margin-left: 140px;
+    padding: 0;
+    
+}
+
+.bnbrating {
+    width: 290px;
+    margin-bottom: 4px;
+    margin-left: 2px;
+}
+
+.bnbinfo {
+    width: 290px;
+    margin-left: 2px;
+}
+
+.bnbinfo p {
+    margin-bottom: 0;
+}
+
+.rating {
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.footerlinks {
+    margin: 0px 70px 0px 70px;
+}
