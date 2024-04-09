@@ -65,10 +65,27 @@
     font-size: 20px;
 }
 
-.bi-star-fill {
-    color: #ff2c52;
+.stella {
+    color: #ff385c;
 }
 
-button {
-    color: #ff2c52;
+.bottone {
+    background-color: #ff385c;
+    color: #fff;
+}
+
+.d-flex.flex-column.w-75 input{
+    height: 38px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.col-8.d-flex.flex-column input {
+    padding-bottom: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/* user reviews */
+
+.img-user {
+    width: 50px;
 }
