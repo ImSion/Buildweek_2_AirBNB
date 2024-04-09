@@ -3,3 +3,72 @@
 .logo {
     width: 100px;
 }
+
+/* main */
+
+.img-principale {
+    width: 640px;
+    height: 405px;
+    
+}
+
+.img-secondarie {
+    width: 315px;
+    height: 200px;
+}
+
+.bordo .col-6:nth-child(2) img {
+    border-radius: 0px 20px 0px 0px;
+}
+
+.bordo .col-6:last-child img {
+    border-radius: 0px 0px 20px 0px;
+}
+
+/* Form */
+
+.shadow.border-black.container {
+    width: 400px;
+    height: 280px;
+}
+
+.form {
+    width: 300px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.input:first-child {
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+.input:nth-of-type(2) {
+    border: 0;
+    border-left: 1px solid black;
+    border-radius: 0px 10px 0px 0px;
+    padding: 10px 0;
+}
+
+.d-flex.w-100 + input{
+    border: 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 0;
+}
+
+.Date {
+    width: 125px;
+    font-size: 20px;
+}
+
+.bi-star-fill {
+    color: #ff2c52;
+}
+
+button {
+    color: #ff2c52;
+}
