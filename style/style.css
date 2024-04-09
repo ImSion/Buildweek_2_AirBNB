@@ -61,7 +61,6 @@
     font-size: 25px;
     color: rgb(105, 105, 105);
     transition: 0.4s ease-in-out;
-    position: relative;
 }
 #profilebutton:hover {
     color: rgb(228, 29, 86);
@@ -73,10 +72,11 @@
 /* sposto il dropdown menu */
 .dropdown-menu[data-bs-popper] {
     transition: 0.4s ease-in-out;
-    position: absolute;
     border: 1px solid  rgb(105, 105, 105);
     left: -82px;
 }
+
+
 
 .hdfilter {
     margin-top: 40px;
@@ -103,7 +103,7 @@ h6 {
     font-weight: 400;
 }
 
-.col {
+.bnbcard {
     max-width: 350px;
     padding: 0;
     height: 400px;
@@ -163,6 +163,43 @@ h6 {
     margin-left: 10px;
 }
 
+#footerloct {
+    max-width: 1000px;
+}
+
+.footerutl {
+    height: 300px;
+}
+
+.footerutl h2{
+    margin-left: 10px;
+}
+
+.footergrid {
+    width: 1000px;
+}
+
+.bnbfilters {
+    width: 100px;
+}
+
 .footerlinks {
     margin: 0px 70px 0px 70px;
+}
+
+.loctitl {
+    margin: 0;
+    font-weight: 700;
+}
+
+.nav-link {
+    color: rgb(105, 105, 105);
+}
+.nav-link:hover {
+    color: black;
+}
+
+.loctdetls {
+    margin-bottom: 30px;
+    color: aquamarine;
 }
