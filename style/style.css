@@ -138,7 +138,7 @@ h6 {
 .carousel-indicators {
     width: 30px;
     border-radius: 20px;
-    margin-left: 140px;
+    margin-left: 165px;
     padding: 0;
     
 }
@@ -164,7 +164,8 @@ h6 {
 }
 
 #footerloct {
-    max-width: 1000px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .footerutl {
@@ -185,6 +186,24 @@ h6 {
 
 .footerlinks {
     margin: 0px 70px 0px 70px;
+}
+
+.footer-fs {
+    font-size: 15px;
+    cursor: pointer;
+}
+.footer-fs:hover {
+    text-decoration: underline;
+}
+
+.footer-fs2 {
+    font-size: 15px;
+    margin-right: 18px;
+}
+
+.bi-facebook , .bi-twitter  {
+    margin-right: 10px;
+    font-size: 17px ;
 }
 
 .loctitl {
