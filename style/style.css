@@ -73,11 +73,22 @@
 .dropdown-menu[data-bs-popper] {
     transition: 0.4s ease-in-out;
     border: 1px solid  rgb(105, 105, 105);
-    left: -82px;
+    left: -65px;
 }
 
+.dropdown-item {
+    padding: 0;
+}
 
+.droplinks {
+    padding-left: 10px;
+}
+.droplinks:hover {
+    background-color: rgb(202, 202, 202);
+    transition: 0.3s ease-in-out;
+}
 
+/*  stilizzo i 3 filtri sotto l'header del main */
 .hdfilter {
     margin-top: 40px;
 }
@@ -99,6 +110,15 @@
     box-shadow: 0px 0px 5px rgb(228, 29, 86);
 }
 
+
+/* comincio a stilizzare le "card" dei vari bnb */
+#bnbcontainer {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    transition: 0.5s ease-in-out;   
+}
+
 h6 {
     font-weight: 400;
 }
@@ -107,22 +127,25 @@ h6 {
     max-width: 350px;
     padding: 0;
     height: 400px;
+    transition: 0.5s ease-in-out;
 }
 
 .car-adjusts {
     width: 350px;
+    transition: 0.5s ease-in-out;
 }
 
 .car-adjusts.carousel.slide {
     width: 350px;
+    transition: 0.5s ease-in-out;
 }
 
 .carousel-item {
-    transition: 0.3s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 .carousel-item.active {
     width: 350px;
-    transition: 0.3s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 .filmimg {
@@ -163,6 +186,8 @@ h6 {
     margin-left: 10px;
 }
 
+
+/* comincio a stilizzare il footer e i suoi elementi */
 #footerloct {
     padding-left: 100px;
     padding-right: 100px;
@@ -221,4 +246,267 @@ h6 {
 .loctdetls {
     margin-bottom: 30px;
     color: aquamarine;
+}
+
+
+/* creo varie media query per rendere più responsive i contenuti */
+
+/* media query large */
+@media screen and (max-width: 1550px ) {
+    .bnbcard {
+        max-width: 300px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .car-adjusts {
+        width: 300px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .car-adjusts.carousel.slide {
+        width: 300px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .carousel-item.active {
+        width: 300px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .filmimg {
+        width: 300px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .carousel-inner {
+        width: 300px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .carousel-indicators {        
+        margin-left: 140px;
+        transition: 0.5s ease-in-out;   
+    }
+}
+
+/* media query medium */
+@media screen and (max-width: 1060px ) {
+    .bnbcard {
+        max-width: 250px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .car-adjusts {
+        width: 250px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .car-adjusts.carousel.slide {
+        width: 250px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .carousel-item.active {
+        width: 250px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .filmimg {
+        width: 250px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .carousel-inner {
+        width: 250px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .carousel-indicators {        
+        margin-left: 120px;
+        transition: 0.5s ease-in-out;   
+    }
+}
+
+/* media query "small" */
+@media screen and (max-width: 621px ) { 
+    .bnbcard {
+        max-width: 350px;
+        transition: 0.5s ease-in-out;
+        margin-left: 60px;
+        margin-right: 60px;
+        height: 300px;
+    }
+    
+    .car-adjusts {
+        width: 350px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .car-adjusts.carousel.slide {
+        width: 350px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .carousel-item.active {
+        width: 350px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .filmimg {
+        width: 350px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .carousel-inner {
+        width: 350px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .carousel-indicators {        
+        margin-left: 155px;
+        transition: 0.5s ease-in-out;   
+    }
+}
+
+
+@media screen and (max-width: 413px ) {
+    #bnbcontainer {
+        margin: 0;
+        transition: 0.5s ease-in-out;   
+    }
+
+    .bnbcard {
+        max-width: 330px;
+        transition: 0.5s ease-in-out;
+        height: 280px;
+        margin-left: 0;
+    }
+    
+    .car-adjusts {
+        width: 330px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .car-adjusts.carousel.slide {
+        width: 330px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .carousel-item.active {
+        width: 330px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .filmimg {
+        width: 330px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .carousel-inner {
+        width: 330px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .carousel-indicators {        
+        margin-left: 155px;
+        transition: 0.5s ease-in-out;   
+    }
+
+    #footerloct {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #myTab{
+        display: flex;
+        overflow: hidden;
+    }
+
+    .bnbrating {
+        text-align: center;
+        transition: 0.5s ease-in-out;   
+    }
+
+    .bnbinfo {
+        text-align: center;
+        transition: 0.5s ease-in-out;   
+    }
+}
+
+/* elimino l'icona profilo e sposto il dropdown */
+@media screen and (max-width: 325px ) { 
+    .dropdown-menu[data-bs-popper] {
+        transition: 0.4s ease-in-out;
+        border: 1px solid  rgb(105, 105, 105);
+        left: -112px;
+    }
+    
+    .bi-person-circle {
+        display: none;
+    }
+}
+
+/* media query per galaxy fold */
+@media screen and (max-width: 281px ) {
+    .bnbcard {
+        max-width: 240px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .car-adjusts {
+        width: 240px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .car-adjusts.carousel.slide {
+        width: 240px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .carousel-item.active {
+        width: 240px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .filmimg {
+        width: 240px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .carousel-inner {
+        width: 240px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .carousel-indicators {        
+        margin-left: 155px;
+        transition: 0.5s ease-in-out;   
+    }
+    
+    #bnbcontainer {
+        margin: 0;
+        transition: 0.5s ease-in-out;   
+    }
+
+    #footerloct {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #myTab{
+        display: flex;
+        overflow: hidden;
+    }
+
+    .bnbrating {
+        width: 240px;
+        text-align: center;
+        transition: 0.5s ease-in-out;   
+    }
+
+    .bnbinfo {
+        width: 240px;
+        text-align: center;
+        transition: 0.5s ease-in-out;   
+    }
 }
