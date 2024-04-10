@@ -111,8 +111,12 @@ header{
     background-color:  rgb(228, 29, 86);
     margin-bottom: 10px;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
     display: none;
+}
 
+#toggleSearch:hover {
+    box-shadow: 0px 0px 10px rgb(228, 29, 86);
 }
 
 .search-fields {
@@ -129,6 +133,15 @@ header{
 @media screen and (max-width: 900px) {
     #toggleSearch {
         display: inline-block;
+    }
+
+    .input-group-prepend {
+        width: 90%;
+    }
+
+    .input-location , .input-checkin , .input-checkout , .input-guest {
+        width: 10px;
+        font-size: 12px;
     }
 
 
