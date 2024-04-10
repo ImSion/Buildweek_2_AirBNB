@@ -100,50 +100,48 @@ header{
     text-align: center;
 }
 
-
-@media screen and (max-width: 862px) {
-    .input-container{
-        background: #fff;
-        display: none;
-    }
-  
-    .container {
+.containerr {
     text-align: center;
-    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#toggleSearch {
+    padding: 10px 16px;
+    border-radius: 30px;
+    background-color:  rgb(228, 29, 86);
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: none;
+
+}
+
+.search-fields {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+
+
+@media screen and (max-width: 900px) {
+    #toggleSearch {
+        display: inline-block;
     }
 
-    .btn {
-        background-color: #ff0000;
-        color: #000;
-        font-size: 20px;
-        padding: 10px 16px;
-        border: none;
-        cursor: pointer;
-        border-radius: 5px;
-    }
 
-    .search-section {
-        overflow: hidden;
-        max-height: 200px;
-        transition: max-height 0.5s ease-out;
-    }
-
-    .input-field {
-        width: 90%;
-        padding: 10px;
-        margin: 5px 0;
-        border-radius: 5px;
-        border: 1px solid #ccc;
-        display: block;
-    }
-
-    #searchButton{
-        display: block;
-    }
 }
 
 /* MEDIA QUERY */
 @media (max-width: 576px) {
+
+    #toggleSearch {
+        margin-top: 100px;
+        display: inline-block;
+    }
+
     nav{
         min-height: 100px;
     }
