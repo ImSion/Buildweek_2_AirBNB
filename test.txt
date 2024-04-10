@@ -49,15 +49,8 @@ header{
     border-right: 1px solid #eee;
 }
 
-.input-location:hover {
-    background: #eee;
-    border-radius: 0 0 50rem 50rem;
-    border-right: 1px solid #eee;
-}
-
 #searchButton {
     border-radius: 40px;
-    display: none;
 }
 #searchButton:hover {
     background: #eee;
@@ -114,7 +107,7 @@ header{
 
     .btn {
         background-color: #ff0000;
-        color: #000;
+        color: white;
         font-size: 20px;
         padding: 10px 16px;
         border: none;
@@ -124,7 +117,7 @@ header{
 
     .search-section {
         overflow: hidden;
-        max-height: 200px;
+        max-height: 0;
         transition: max-height 0.5s ease-out;
     }
 
@@ -137,10 +130,8 @@ header{
         display: block;
     }
 
-    #searchButton{
-        display: block;
-    }
 }
+
 
 /* MEDIA QUERY */
 @media (max-width: 576px) {
@@ -160,13 +151,11 @@ header{
     }
     .block-center li {
         margin: 10px 5px;
-        display: flex;
-        flex-wrap: wrap;
     }
     .block-right {
         position: absolute;
         top: 50%;
-        left: 0;
+        left: 8px;
     }
 
     .dropdown-menu[data-bs-popper] {

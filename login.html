@@ -26,7 +26,7 @@
                     </a>
                 </div>
                 <div class="block-center">
-                    <ul class="d-flex gap-lg-5 list-unstyled m-0 px-0">
+                    <ul class="d-flex flex-wrap gap-0 justify-content-center gap-lg-5 list-unstyled m-0 px-0">
                         <a class="text-white" href="#"><li>Places to stay</li></a> 
                         <a class="text-white" href="#"><li>Experiences</li></a> 
                         <a class="text-white" href="#"><li>Online Experiences</li></a> 
@@ -38,8 +38,8 @@
                     <div class="dropdown d-flex align-items-center justify-content-center text-center ">
                       
                       <button id="profilebutton" class="btn bg-light rounded-pill" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          <i class="bi bi-list me-1"></i>
-                          <i class="bi bi-person-circle"></i>
+                          <i class="bi bi-list me-1 text-black "></i>
+                          <i class="bi bi-person-circle text-black "></i>
                       </button>
                       <ul class="dropdown-menu mymenu">
                         <li><a class="dropdown-item" href="#">Login</a></li>
@@ -52,16 +52,19 @@
         </nav>
         <!-- input group -->
         <div class="container-fluid mt-3 px-0">
-            <!-- <div class="row"> -->
+            <button id="searchButton" class="btn rounded-pill btn-danger ">
+                <i class="bi bi-search"></i>
+            </button>
+            <div class="row">
                 <div class="input-group mb-3 d-flex justify-content-center">
-                    <div class="input-group-prepend d-flex flex-wrap align-items-center input-container rounded-lg-pill">
+                    <div class="input-group-prepend d-flex align-items-center  input-container rounded-pill">
                         <!-- input choose location -->
                         <div class="input-location d-flex flex-column px-3 py-3 col">
                             <label class="fw-bold mb-1" for="fname">Location</label>
                             <input class="rounded-pill" type="text" id="fname" name="fname" placeholder="Where are you going?">
                         </div>
                         <!-- input check-in -->
-                        <div class="input-checkin d-flex flex-column ps-0 px-lg-3 py-3 col">
+                        <div class="input-checkin d-flex flex-column px-3 py-3 col">
                             <label class="fw-bold mb-1" for="date">Check-in</label>
                             <input class="text-secondary" type="date" id="date" name="date">
                         </div>
@@ -76,15 +79,15 @@
                             <input type="number" id="number" name="number" placeholder="Add guests">
                         </div>
                         <!-- button search -->
-                        <div class="button-search d-sm-flex justify-content-sm-center col px-3 py-3">
-                            <button type="button" class="btn btn-danger rounded-pill px-4 py-3 w-100">
+                        <div class="button-search col px-3 py-3">
+                            <button type="button" class="btn btn-danger rounded-pill px-4 py-3">
                                 <i class="bi bi-search"></i>
                             </button>
                         </div>
                         
                     </div>
                 </div>
-            <!-- </div> -->
+            </div>
         </div>
         <!-- title-section -->
         <div class="hero">
