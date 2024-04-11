@@ -108,6 +108,10 @@ header{
     padding: 5px;
 }
 
+.bnb-color {
+    background-color: rgb(228, 29, 86);
+    color: rgb(255, 255, 255);
+}
 
 
 /* MEDIA QUERY */
