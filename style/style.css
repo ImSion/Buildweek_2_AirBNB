@@ -152,6 +152,7 @@ h6 {
     width: 350px;
     height: 205px;
     border-radius: 7px;
+    cursor: pointer;
 }
 
 .carousel-inner {
@@ -289,40 +290,180 @@ h6 {
     }
 }
 
-/* media query medium */
-@media screen and (max-width: 1060px ) {
+/* media query per adattare ipad pro */
+@media screen and (max-width: 1025px ) {
     .bnbcard {
-        max-width: 250px;
+        max-width: 400px;
         transition: 0.5s ease-in-out;
     }
     
     .car-adjusts {
-        width: 250px;
+        width: 400px;
         transition: 0.5s ease-in-out;
     }
     
     .car-adjusts.carousel.slide {
-        width: 250px;
+        width: 400px;
         transition: 0.5s ease-in-out;
     }
     
     .carousel-item.active {
-        width: 250px;
+        width: 400px;
         transition: 0.5s ease-in-out;
     }
     
     .filmimg {
-        width: 250px;
+        width: 400px;
         transition: 0.5s ease-in-out;
     }
 
     .carousel-inner {
-        width: 250px;
+        width: 400px;
         transition: 0.5s ease-in-out;
     }
 
     .carousel-indicators {        
-        margin-left: 120px;
+        margin-left: 140px;
+        transition: 0.5s ease-in-out;   
+    }
+}
+
+/* media query per adattare ipad pro */
+@media screen and (max-width: 937px ) {
+    .bnbcard {
+        max-width: 350px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .car-adjusts {
+        width: 350px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .car-adjusts.carousel.slide {
+        width: 350px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .carousel-item.active {
+        width: 350px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .filmimg {
+        width: 350px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .carousel-inner {
+        width: 350px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .carousel-indicators {        
+        margin-left: 140px;
+        transition: 0.5s ease-in-out;   
+    }
+}
+
+/* media query per adattare ipad air */
+@media screen and (max-width: 837px ) {
+    .bnbcard {
+        max-width: 300px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .car-adjusts {
+        width: 300px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .car-adjusts.carousel.slide {
+        width: 300px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .carousel-item.active {
+        width: 300px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .filmimg {
+        width: 300px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .carousel-inner {
+        width: 300px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .carousel-indicators {        
+        margin-left: 140px;
+        transition: 0.5s ease-in-out;   
+    }
+}
+
+@media screen and (max-width: 740px ) {
+    #bnbcontainer {
+        margin: 0;
+        transition: 0.5s ease-in-out;   
+    }
+
+    .bnbcard {
+        max-width: 300px;
+        transition: 0.5s ease-in-out;
+        height: 280px;
+        margin-left: 0;
+    }
+    
+    .car-adjusts {
+        width: 300px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .car-adjusts.carousel.slide {
+        width: 300px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .carousel-item.active {
+        width: 300px;
+        transition: 0.5s ease-in-out;
+    }
+    
+    .filmimg {
+        width: 300px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .carousel-inner {
+        width: 300px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .carousel-indicators {        
+        margin-left: 155px;
+        transition: 0.5s ease-in-out;   
+    }
+
+    #footerloct {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #myTab{
+        display: flex;
+        overflow: hidden;
+    }
+
+    .bnbrating {
+        text-align: center;
+        transition: 0.5s ease-in-out;   
+    }
+
+    .bnbinfo {
+        text-align: center;
         transition: 0.5s ease-in-out;   
     }
 }
@@ -368,8 +509,7 @@ h6 {
     }
 }
 
-
-@media screen and (max-width: 413px ) {
+@media screen and (max-width: 431px ) {
     #bnbcontainer {
         margin: 0;
         transition: 0.5s ease-in-out;   
