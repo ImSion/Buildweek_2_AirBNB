@@ -352,7 +352,7 @@ h6 {
 }
 
 /* media query per adattare ipad pro */
-@media screen and (max-width: 948px ) {
+@media screen and (max-width: 952px ) {
     .bnbcard {
         max-width: 350px;
         transition: 0.5s ease-in-out;
@@ -390,7 +390,7 @@ h6 {
 }
 
 /* media query per adattare ipad air */
-@media screen and (max-width: 848px ) {
+@media screen and (max-width: 852px ) {
     .bnbcard {
         max-width: 300px;
         transition: 0.5s ease-in-out;
