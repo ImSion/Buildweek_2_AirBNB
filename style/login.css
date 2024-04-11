@@ -120,34 +120,34 @@ header{
 }
 
 .search-fields {
-    overflow: hidden;
     max-height: 0;
     transition: max-height 0.5s ease-in-out;
 }
 
-.hidden {
-    display: none;
-}
-
-
+/* MEDIA QUERY */
 @media screen and (max-width: 900px) {
     #toggleSearch {
         display: inline-block;
     }
 
+    .search-fields {
+        overflow: hidden;
+        max-height: 500px;
+    }
+
     .input-group-prepend {
-        width: 90%;
+        width: 90%;    
     }
 
     .input-location , .input-checkin , .input-checkout , .input-guest {
-        width: 10px;
-        font-size: 12px;
+        width: 50px;
+        font-size: 12px;  
     }
 
 
 }
 
-/* MEDIA QUERY */
+
 @media (max-width: 576px) {
 
     #toggleSearch {

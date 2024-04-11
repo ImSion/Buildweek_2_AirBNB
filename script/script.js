@@ -2,18 +2,18 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('toggleSearch').addEventListener('click', function() {
         var searchSection = document.getElementById('searchFields');
         
+        // Controllo iniziale per rimuovere la classe 'hidden', se presente
         if (searchSection.classList.contains('hidden')) {
             searchSection.classList.remove('hidden');
-            setTimeout(function() { // Aspetta un ciclo di rendering per l'animazione
-                searchSection.style.maxHeight = searchSection.scrollHeight + "px";
-            }, 10);
+        }
+        
+        // Controlliamo se la sezione è già visibile o meno controllando maxHeight
+        if (searchSection.style.maxHeight === "0px" || searchSection.style.maxHeight === "") {
+            // Sezione non è visibile, quindi la mostriamo
+            searchSection.style.maxHeight = searchSection.scrollHeight + "px";
         } else {
-            searchSection.style.maxHeight = '0';
-            searchSection.addEventListener('transitionend', function() {
-                searchSection.classList.add('hidden');
-            }, {
-                once: true
-            });
+            // Sezione è visibile, quindi la nascondiamo
+            searchSection.style.maxHeight = "0px";
         }
     });
 });
