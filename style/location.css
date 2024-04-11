@@ -209,6 +209,63 @@
     width: 50px;
 }
 
+/* footer*/
+
+footer {
+    margin-top: 100px;
+}
+
+.footerutl {
+    height: 300px;
+}
+
+.footerutl h2{
+    margin-left: 10px;
+}
+
+.footergrid {
+    width: 1000px;
+}
+
+.bnbfilters {
+    width: 100px;
+}
+
+.footer-fs {
+    font-size: 15px;
+    cursor: pointer;
+}
+.footer-fs:hover {
+    text-decoration: underline;
+}
+
+.footer-fs2 {
+    font-size: 15px;
+    margin-right: 18px;
+}
+
+.bi-facebook , .bi-twitter  {
+    margin-right: 10px;
+    font-size: 17px ;
+}
+
+.loctitl {
+    margin: 0;
+    font-weight: 700;
+}
+
+.nav-link {
+    color: rgb(105, 105, 105);
+}
+.nav-link:hover {
+    color: black;
+}
+
+.loctdetls {
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
 
 /* cursor pointer generale */
 .cursore {
