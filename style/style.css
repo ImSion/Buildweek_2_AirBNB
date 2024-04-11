@@ -264,6 +264,15 @@ h6 {
     transform: scale(1.02);
 }
 
+.windyhvr {
+    transition: 0.4s ease-in-out;
+}
+
+.windyhvr:hover {
+    text-shadow: 0px 0px 5px rgb(228, 29, 86);
+    
+}
+
 /* creo varie media query per rendere più responsive i contenuti */
 
 /* media query large */
