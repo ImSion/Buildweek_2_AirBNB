@@ -65,6 +65,7 @@
 .like {
     background-color: #fff;
     border: 0;
+    transition: 0.4s ease-in-out;
 }
 
 .like:first-of-type:hover {
@@ -73,6 +74,7 @@
     scale: 1.05;
     color: #0000ff;
     box-shadow: 0px 0px 5px #0000ff;
+    transition: 0.5s ease-in-out;
 }
 
 .like:last-of-type:hover {
@@ -81,14 +83,15 @@
     scale: 1.05;
     color: #ff0000;
     box-shadow: 0px 0px 5px #ff0000;
+    transition: 0.5s ease-in-out;
 }
 
 .like:first-of-type {
-    transition: scale 1s ease-in-out;
+    transition: scale 0.5s ease-in-out;
 }
 
 .like:last-of-type {
-    transition: scale 1s ease-in-out;
+    transition: scale 0.5s ease-in-out;
 }
 
 /* Immagini in primo piano */
