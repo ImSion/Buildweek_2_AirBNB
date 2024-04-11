@@ -110,6 +110,9 @@ header{
 
 .bnb-color {
     background-color: rgb(228, 29, 86);
+}
+
+.bnb-color a {
     color: rgb(255, 255, 255);
 }
 
