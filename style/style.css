@@ -249,6 +249,20 @@ h6 {
     color: aquamarine;
 }
 
+.logout {
+    text-decoration: none;
+    color:  rgb(37, 37, 37);
+}
+
+.bnbhvr {
+    border-radius: 10px;
+   transition: 0.5s ease-in-out;
+}
+
+.bnbhvr:hover {
+    box-shadow: 0px 0px 10px black;
+    transform: scale(1.02);
+}
 
 /* creo varie media query per rendere più responsive i contenuti */
 
@@ -329,7 +343,7 @@ h6 {
 }
 
 /* media query per adattare ipad pro */
-@media screen and (max-width: 937px ) {
+@media screen and (max-width: 948px ) {
     .bnbcard {
         max-width: 350px;
         transition: 0.5s ease-in-out;
@@ -367,7 +381,7 @@ h6 {
 }
 
 /* media query per adattare ipad air */
-@media screen and (max-width: 837px ) {
+@media screen and (max-width: 848px ) {
     .bnbcard {
         max-width: 300px;
         transition: 0.5s ease-in-out;
@@ -469,7 +483,7 @@ h6 {
 }
 
 /* media query "small" */
-@media screen and (max-width: 621px ) { 
+@media screen and (max-width: 641px ) { 
     .bnbcard {
         max-width: 350px;
         transition: 0.5s ease-in-out;
