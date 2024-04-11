@@ -117,6 +117,13 @@ header{
     color: rgb(255, 255, 255);
 }
 
+.bnb-color:hover {
+    color: rgb(255, 255, 255);
+    background-color: #e41d56;
+    filter: drop-shadow(0 0 0.1rem #e41d56);
+
+}
+
 /* footer*/
 
 footer {
@@ -239,7 +246,7 @@ footer {
     .input-location , .input-checkin , .input-checkout , .input-guest {
         width: 70%;
         font-size: 12px;  
-    }
+    }    
 
 }
 
@@ -284,6 +291,62 @@ footer {
         flex-direction: column;
         border-radius: 30px;
   }
+    #searchButton:hover {
+        background: #eee;
+        border-radius: 0 50rem 50rem 0;
+        border-right: 1px solid #eee;
+    }
+
+    .input-checkin:hover{
+        background: #eee;
+    }
+    .input-checkout:hover{
+        background: #eee;
+    }
+    .input-guest:hover{
+        background: #eee;
+    } 
+    .input-location:hover {
+        background: #eee;
+        border-radius: 50rem 0 0 50rem;
+        border-right: 1px solid #eee;
+    }
+    
+    .button-search:hover {
+        background: #eee;
+        border-radius: 0 50rem 50rem 0;
+        border-right: 1px solid #eee;
+    }
+    #toggleSearch {
+        display: inline-block;
+    }
+
+    .button-search {
+        width: 90%;
+    }
+
+    .btn.btn-danger {
+        width: 100%;
+    }
+
+    .search-fields {
+        overflow: hidden;
+        max-height: 100%;
+        position: relative;
+        z-index: 1;
+    }
+
+    .input-group-prepend {
+        width: 90%;  
+        flex-direction: column;  
+        border-radius: 30px;
+    }
+
+    .input-location , .input-checkin , .input-checkout , .input-guest {
+        width: 70%;
+        font-size: 12px;  
+    }
+    
 }  
 
 
